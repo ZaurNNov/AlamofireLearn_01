@@ -13,6 +13,7 @@
 		63D4A03620301D80005BCECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A03520301D80005BCECD /* Assets.xcassets */; };
 		63D4A03920301D80005BCECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A03720301D80005BCECD /* LaunchScreen.storyboard */; };
 		63D4A04120301DD5005BCECD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A04020301DD5005BCECD /* Podfile */; };
+		63D4A04320302862005BCECD /* JSONStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4A04220302862005BCECD /* JSONStructs.swift */; };
 		BFE9DCA30FD11C41DCD9C949 /* Pods_AlamofireLearn_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75038736ED006682CB7DF0A /* Pods_AlamofireLearn_01.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		63D4A03820301D80005BCECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D4A03A20301D80005BCECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D4A04020301DD5005BCECD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		63D4A04220302862005BCECD /* JSONStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructs.swift; sourceTree = "<group>"; };
 		E75038736ED006682CB7DF0A /* Pods_AlamofireLearn_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireLearn_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F404E0FB5EC56181504EF5B7 /* Pods-AlamofireLearn_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireLearn_01.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireLearn_01/Pods-AlamofireLearn_01.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 			children = (
 				63D4A02E20301D80005BCECD /* AppDelegate.swift */,
 				63D4A03020301D80005BCECD /* ViewController.swift */,
+				63D4A04220302862005BCECD /* JSONStructs.swift */,
 				63D4A03220301D80005BCECD /* Main.storyboard */,
 				63D4A03520301D80005BCECD /* Assets.xcassets */,
 				63D4A03720301D80005BCECD /* LaunchScreen.storyboard */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D4A03120301D80005BCECD /* ViewController.swift in Sources */,
+				63D4A04320302862005BCECD /* JSONStructs.swift in Sources */,
 				63D4A02F20301D80005BCECD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
