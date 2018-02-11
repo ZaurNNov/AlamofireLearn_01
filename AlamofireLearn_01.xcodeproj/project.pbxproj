@@ -12,9 +12,12 @@
 		63D4A03420301D80005BCECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A03220301D80005BCECD /* Main.storyboard */; };
 		63D4A03620301D80005BCECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A03520301D80005BCECD /* Assets.xcassets */; };
 		63D4A03920301D80005BCECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A03720301D80005BCECD /* LaunchScreen.storyboard */; };
+		63D4A04120301DD5005BCECD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 63D4A04020301DD5005BCECD /* Podfile */; };
+		BFE9DCA30FD11C41DCD9C949 /* Pods_AlamofireLearn_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75038736ED006682CB7DF0A /* Pods_AlamofireLearn_01.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111BE0B3EA62AE9DB83F6D03 /* Pods-AlamofireLearn_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireLearn_01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireLearn_01/Pods-AlamofireLearn_01.debug.xcconfig"; sourceTree = "<group>"; };
 		63D4A02B20301D80005BCECD /* AlamofireLearn_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireLearn_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D4A02E20301D80005BCECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D4A03020301D80005BCECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		63D4A03520301D80005BCECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D4A03820301D80005BCECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D4A03A20301D80005BCECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D4A04020301DD5005BCECD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E75038736ED006682CB7DF0A /* Pods_AlamofireLearn_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireLearn_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F404E0FB5EC56181504EF5B7 /* Pods-AlamofireLearn_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireLearn_01.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireLearn_01/Pods-AlamofireLearn_01.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE9DCA30FD11C41DCD9C949 /* Pods_AlamofireLearn_01.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +45,11 @@
 		63D4A02220301D80005BCECD = {
 			isa = PBXGroup;
 			children = (
+				63D4A04020301DD5005BCECD /* Podfile */,
 				63D4A02D20301D80005BCECD /* AlamofireLearn_01 */,
 				63D4A02C20301D80005BCECD /* Products */,
+				BB06E2672A581999FE786E23 /* Pods */,
+				DCA69429789A8BC2026B5A99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +74,23 @@
 			path = AlamofireLearn_01;
 			sourceTree = "<group>";
 		};
+		BB06E2672A581999FE786E23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				111BE0B3EA62AE9DB83F6D03 /* Pods-AlamofireLearn_01.debug.xcconfig */,
+				F404E0FB5EC56181504EF5B7 /* Pods-AlamofireLearn_01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCA69429789A8BC2026B5A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75038736ED006682CB7DF0A /* Pods_AlamofireLearn_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D4A03D20301D80005BCECD /* Build configuration list for PBXNativeTarget "AlamofireLearn_01" */;
 			buildPhases = (
+				44F346034FC519F3F79E2898 /* [CP] Check Pods Manifest.lock */,
 				63D4A02720301D80005BCECD /* Sources */,
 				63D4A02820301D80005BCECD /* Frameworks */,
 				63D4A02920301D80005BCECD /* Resources */,
+				68F9CBA0964ECB9DF79B4577 /* [CP] Embed Pods Frameworks */,
+				461A6AA4E5DB87736388480A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +155,66 @@
 			files = (
 				63D4A03920301D80005BCECD /* LaunchScreen.storyboard in Resources */,
 				63D4A03620301D80005BCECD /* Assets.xcassets in Resources */,
+				63D4A04120301DD5005BCECD /* Podfile in Resources */,
 				63D4A03420301D80005BCECD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F346034FC519F3F79E2898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamofireLearn_01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461A6AA4E5DB87736388480A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireLearn_01/Pods-AlamofireLearn_01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F9CBA0964ECB9DF79B4577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireLearn_01/Pods-AlamofireLearn_01-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireLearn_01/Pods-AlamofireLearn_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63D4A02720301D80005BCECD /* Sources */ = {
@@ -272,6 +357,7 @@
 		};
 		63D4A03E20301D80005BCECD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111BE0B3EA62AE9DB83F6D03 /* Pods-AlamofireLearn_01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +372,7 @@
 		};
 		63D4A03F20301D80005BCECD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F404E0FB5EC56181504EF5B7 /* Pods-AlamofireLearn_01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
